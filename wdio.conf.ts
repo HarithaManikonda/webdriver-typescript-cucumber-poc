@@ -57,6 +57,7 @@ export const config: WebdriverIO.Config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
+        build: 'test-build',
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -189,7 +190,10 @@ export const config: WebdriverIO.Config = {
     /**
      * Gets executed once before all workers get launched.
      * @param {Object} config wdio configuration object
-     * @param {Array.<Object>} capabilities list of capabilities details
+     * @param {Array.<Object>} 
+     
+     
+     ilities list of capabilities details
      */
     // onPrepare: function (config, capabilities) {
     // },

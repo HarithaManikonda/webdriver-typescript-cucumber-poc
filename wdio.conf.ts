@@ -115,9 +115,11 @@ export const config: WebdriverIO.Config = {
    user:"oauth-arunakiran.nulu-9cc34",
    key:"b4a97955-447b-4f9a-b362-6722a2064a13",
    region:'us',
+   build: 'test-build',
    services: [
        ['sauce',{
            sauceConnect:true,
+           build: 'test-build',
            sauceConnectOpts:{
                //
            },

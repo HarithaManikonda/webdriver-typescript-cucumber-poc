@@ -113,6 +113,7 @@ export const config: WebdriverIO.Config = {
    //services: ['chromedriver'],
    user:"oauth-arunakiran.nulu-9cc34",
    key:"b4a97955-447b-4f9a-b362-6722a2064a13",
+   host:"https://ondemand.saucelabs.com:443",
    region:'us',
    services: [
        ['sauce',{

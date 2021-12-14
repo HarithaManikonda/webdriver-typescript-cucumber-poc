@@ -22,6 +22,7 @@
     "chromedriver": "^96.0.0",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.3",
-    "wdio-chromedriver-service": "^7.2.2"
+    "wdio-chromedriver-service": "^7.2.2",
+    "wdio-cucumber-reporter": "0.0.2"
   }
 }

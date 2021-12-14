@@ -120,7 +120,7 @@ export const config: WebdriverIO.Config = {
    services: [
        ['sauce',{
            sauceConnect:true,
-           build: 'test-build',
+           build: process.env.JENKINS_BUILD_NUMBER,
            sauceConnectOpts:{
                //
            },

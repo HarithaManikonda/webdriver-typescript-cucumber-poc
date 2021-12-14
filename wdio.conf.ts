@@ -112,8 +112,8 @@ export const config: WebdriverIO.Config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
    //services: ['chromedriver'],
-   user:"oauth-arunakiran.nulu-9cc34",
-   key:"b4a97955-447b-4f9a-b362-6722a2064a13",
+   user: process.env.SAUCE_USERNAME,
+   key: process.env.SAUCE_ACCESS_KEY,
    //host:"https://ondemand.saucelabs.com:443",
    region:'us',
    build: process.env.JENKINS_BUILD_NUMBER,

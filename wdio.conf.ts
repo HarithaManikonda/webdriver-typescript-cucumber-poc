@@ -116,7 +116,7 @@ export const config: WebdriverIO.Config = {
    key:"b4a97955-447b-4f9a-b362-6722a2064a13",
    host:"https://ondemand.saucelabs.com:443",
    region:'us',
-   build: 'test-build',
+   build: process.env.JENKINS_BUILD_NUMBER,
    services: [
        ['sauce',{
            sauceConnect:true,

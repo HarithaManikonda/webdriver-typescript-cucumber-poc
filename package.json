@@ -15,6 +15,7 @@
     "save-dev": "0.0.1-security"
   },
   "devDependencies": {
+    "@wdio/allure-reporter": "^7.16.11",
     "@wdio/cucumber-framework": "^7.16.11",
     "@wdio/local-runner": "^7.16.11",
     "@wdio/spec-reporter": "^7.16.11",

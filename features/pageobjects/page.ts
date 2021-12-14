@@ -8,6 +8,7 @@ export default class Page {
     * @param path path of the sub page (e.g. /path/to/page.html)
     */
     public open(path: string): Promise<string> {
+        console.log("SauceOnDemandSessionID=" + browser.sessionId + " job-name=test-job");
         return browser.url(`https://the-internet.herokuapp.com/${path}`)
     }
 }
